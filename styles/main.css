@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: Source Sans Pro;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/*
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+*/
+@font-face {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 300;
+  src: url(/src/assets/Source_Sans_Pro/SourceSansPro-Regular.ttf); }
+
+@font-face {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  src: url(/src/assets/Source_Sans_Pro/SourceSansPro-Bold.ttf); }
+
+/* Sizes
+---------------------------------------------------------------------------- */
+/* Font Properties
+---------------------------------------------------------------------------- */
+/* Font Weights
+---------------------------------------------------------------------------- */
+/* Line Heights
+---------------------------------------------------------------------------- */
+/* Colors
+---------------------------------------------------------------------------- */
+/* Functional Properties
+---------------------------------------------------------------------------- */
+/* Viewports
+---------------------------------------------------------------------------- */
+/* Transitions
+---------------------------------------------------------------------------- */
+/* Misc
+---------------------------------------------------------------------------- */
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
+  hyphens: auto;
+  color: #222222; }
+
+img {
+  width: 140px; }
+
+h1 {
+  font-size: 66px; }
+
+h2 {
+  font-size: 31.5px; }
+
+h3 {
+  font-size: 25px; }
+
+section {
+  margin-bottom: 31.5px; }
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 370px;
+  margin-right: 370px; }
+  .main-header__title {
+    font-family: Source Sans Pro;
+    top: -50px; }
+  .main-header__dropdown-select {
+    position: relative;
+    padding: 3px;
+    top: 20px;
+    float: right; }
+
+.main {
+  padding: 20px 0 20px 0; }
+  .main__content {
+    border-top: solid 2px #222222;
+    padding: 10px 370px 10px 370px; }
+  .main__content__title {
+    padding-top: 40px; }
+  .main__pfeil {
+    margin-top: -50px; }
+  .main__pictures {
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    margin-top: -50px; }
+
+.img__cranach {
+  height: 140px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-top: 50px;
+  cursor: pointer; }
+
+.main__overlay {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  top: 0;
+  left: 0; }
+
+section {
+  padding: 20px 20px 20px 20px;
+  background-color: #222222;
+  height: 100%;
+  width: 100%; }
+
+.ueberschrift {
+  font-family: Source Sans Pro;
+  color: #F0F0F0;
+  background-color: #222222;
+  width: auto;
+  margin-bottom: 20px; }
+
+.text {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #222222;
+  color: white;
+  margin-bottom: 40px; }
+  .text__ort {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #222222;
+    color: white;
+    width: auto; }
+  .text__groeße {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #222222;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .text__footer {
+    font-family: Source Sans Pro;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: #222222;
+    color: white;
+    line-height: 15px; }
+
+.img__cranach__overlay {
+  width: 400px;
+  height: auto;
+  object-fit: cover; }
+
+.overlay__content {
+  height: auto;
+  min-width: 750px;
+  display: flex;
+  position: relative;
+  margin-left: 370px;
+  margin-right: 370px;
+  transform: translateY(30%);
+  border: 1px solid #F0F0F0;
+  z-index: 1;
+  background-color: #222222; }
+
+#buttonClose {
+  position: relative;
+  z-index: 2;
+  height: 30px;
+  width: 40px;
+  right: -16px;
+  top: -16px;
+  background-color: #F0F0F0;
+  border-radius: 50%; }
+
+ul {
+  list-style: none; }
+
+details {
+  font-size: 130%;
+  margin-top: 30px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,175 @@
+//--------------------------------Main----------------------------------------//
+
+.main-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: $abstand-left-right;
+  margin-right: $abstand-left-right;
+
+
+  &__title{
+      font-family: $font-family-regular;
+      top: -$abstand-xl;
+  }
+
+  &__dropdown-select {
+      position: relative;
+      padding: 3px;
+      top: $abstand-s;
+      float: right;
+  }
+}
+
+
+
+.main{
+  padding: $abstand-s 0 $abstand-s 0;
+
+
+  &__content{
+      border-top: solid $border-width $darkest;
+      padding: $abstand-xs $abstand-left-right $abstand-xs $abstand-left-right;
+  }
+
+  &__content__title{
+      padding-top: $abstand-l;
+  }
+
+
+  &__pfeil{
+      margin-top: -$abstand-xl;
+    
+  }
+
+  &__pictures{
+      font-family: $font-family-regular;
+      font-weight: $fw-normal;
+      margin-top: -$abstand-xl;
+  }
+}
+
+.img__cranach{
+  height: 140px;
+  object-fit: cover;
+  margin-right: $abstand-s;
+  margin-top: $abstand-xl;
+  cursor: pointer;
+}
+
+
+//--------------------------------overlay----------------------------------------//
+
+.main__overlay {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0, 0.75);
+  top: 0;
+  left:0;
+}
+
+section{
+  padding: $abstand-s $abstand-s $abstand-s $abstand-s;
+  background-color: $darkest;
+  height: 100%;
+  width: 100%;
+
+}
+
+.ueberschrift{
+  font-family: $font-family-regular;
+  color: $lightest;
+  background-color: $darkest;
+  width: auto;
+  margin-bottom: $abstand-s;
+}
+
+
+
+.text{
+  font-family: $font-family-regular;
+  font-size: $s;
+  font-weight: $fw-normal;
+  background-color: $darkest;
+  color:white;
+  margin-bottom: $abstand-l;
+
+
+&__ort{
+  font-family: $font-family-regular;
+  font-size: $s;
+  font-weight: $fw-normal;
+  background-color: $darkest;
+  color:white;
+  width: auto;
+
+}
+
+&__groeße{
+  font-family: $font-family-regular;
+  font-size: $s;
+  font-weight: $fw-normal;
+  background-color: $darkest;
+  color:white;
+  margin-top: $abstand-s;
+  margin-bottom: $abstand-s;
+}
+
+&__footer{
+  font-family: $font-family-regular;
+  font-size: $xs;
+  font-weight: $fw-normal;
+  background-color: $darkest;
+  color:white;
+  line-height: 15px;
+}
+
+}
+
+
+.img__cranach__overlay{
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+.overlay__content{
+  height: auto;
+  min-width: 750px;
+  display: flex;
+  position: relative;;
+  margin-left: $abstand-left-right;
+  margin-right: $abstand-left-right;
+  transform: translateY(30%);
+  border: 1px solid $lightest;
+  z-index: 1;
+  background-color: $darkest;
+}
+
+
+#buttonClose {
+  position: relative;
+  z-index: 2;
+  height: $abstand-m;
+  width: $abstand-l;
+  right: -$s;
+  top: -$s;
+  background-color: $lightest;
+  border-radius: 50%;
+}
+
+
+ul{
+  list-style: none;
+ }
+
+//--------------------------------Accordion----------------------------------------//
+
+details {
+  font-size: 130%;
+  margin-top: $abstand-m;
+}
+
+

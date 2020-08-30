@@ -1,0 +1,80 @@
+/* Sizes
+---------------------------------------------------------------------------- */
+$xs: 10px;
+$s: 16px;
+$m: 25px;
+$l: 31.5px;
+$xl: 66px;
+
+$abstand-xs: $xs;
+$abstand-s: 20px;
+$abstand-m: 30px;
+$abstand-l: 40px;
+$abstand-xl: 50px;
+$abstand-left-right: 370px;
+
+
+/* Font Properties
+---------------------------------------------------------------------------- */
+$font-family-bold: Source Sans Pro;
+$font-family-regular: Source Sans Pro;
+$body-font-size: $s;
+$header-font-size: $xl;
+$logo-font-size: $l;
+$title-font-size: $m;
+$number_of_paintings-font-size: $s;
+$card-font-size: $xs;
+
+
+/* Font Weights
+---------------------------------------------------------------------------- */
+$fw-light: 300;
+$fw-normal: 400;
+$fw-bold: 600;
+
+
+/* Line Heights
+---------------------------------------------------------------------------- */
+$lh-tight: 100%;
+$lh-default: 130%;
+$lh-loose: 150%;
+
+/* Colors
+---------------------------------------------------------------------------- */
+$dark: #B4B4B4;
+$darker: #444444;
+$darkest: #222222;
+$darken: #000231;
+
+$light: #FFFFFF;
+$lighter: #F2F2F2;
+$lightest: #F0F0F0;
+$lighten: #DDDDDD;
+
+$yellow: #FECB2F;
+
+$yellow-gardient-one: #FCF0A0;
+$yellow-gardient-two: #D9A910;
+
+
+/* Functional Properties
+---------------------------------------------------------------------------- */
+$text-color: $darkest;
+
+
+/* Viewports
+---------------------------------------------------------------------------- */
+$vp-small: 50rem;
+$vp-medium: 60 * $m;
+$vp-large: 80 * $m;
+
+
+/* Transitions
+---------------------------------------------------------------------------- */
+$tr-fast: 0.2s;
+$tr-slow: 0.8s;
+
+/* Misc
+---------------------------------------------------------------------------- */
+$border-width: 2px;
+$width-marinalie: 26rem;

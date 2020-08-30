@@ -1,0 +1,48 @@
+<ul>
+  <li>
+
+    {{#daten}}
+    {{#data}}
+
+    <h1 class="main__content__title"> {{year}}</h1>
+    <details open>
+      <div id="overlay" class="main__overlay">
+        <div class="overlay__content">
+          {{#images_1}}
+          <img src="{{image_2}}" alt="bildnis-einer-braut" class="img__cranach__overlay">
+          {{/images_1}}
+
+          <section>
+            {{#images_1}}
+            <h3 class="ueberschrift">{{title}}</h3>
+            <p class="text">{{description}}</p>
+            <p class="text">{{repository}}</p>
+            <p class="text__groeße">{{dimensions}}</p>
+            <p class="text__footer">{{inventoryNumber}}</p>
+            <p class="text__footer">{{repository}}</p>
+            <!-----
+            <p class="text__ort">{{#locations.0}}{{term}}{{/locations.0}}</p>
+            <p class="text">{{repository}}</p>
+            <p class="text__groeße">{{dimensions}}</p>
+            <p class="text__footer">{{inventoryNumber}}</p>
+            <p class="text__footer">{{#dating}}{{dated}}{{/dating}}</p>-->
+          </section>
+          {{/images_1}}
+
+          <button class="button" id="buttonClose" onclick="closeOverlay('overlay')">X</a>
+        </div>
+      </div>
+
+      {{#images_1}}
+
+      <img src="{{image_2}}" alt="img_cranach" class="img__cranach" id="buttonOpen" onclick="openOverlay('overlay')">
+
+      {{/images_1}}
+
+    </details>
+    {{/data}}
+    {{/daten}}
+    </div>
+    </div>
+  </li>
+</ul>
